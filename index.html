@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,38 +9,56 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
 
-    <title>Hello, world!</title>
+    <!-- Bootstrap JS -->
+    <script src="./bootstrap-4.5.0-dist/js/bootstrap.bundle.js"></script>
+    <script src="./bootstrap-4.5.0-dist/js/jquery-3.0.0.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <title>iGem Wiki</title>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#">
+        <img src="./public/gliksys_logo.png" width="150" alt="" loading="lazy">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Descrption</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Human Practice</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Parts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
+              Safety
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Section 1</a>
+              <a class="dropdown-item" href="#">Section 2</a>
+              <a class="dropdown-item" href="#">Section 3</a>
             </div>
           </li>
         </ul>
       </div>
     </nav>
+
     <div class="container-fluid">
       <div class="row" style="height:100px; text-align: center;">
         <div class="col-3">
@@ -49,6 +68,8 @@
           <h1>Contenido</h1>
         </div>
       </div>
-    </div>   
+    </div>
+
   </body>
+
 </html>
