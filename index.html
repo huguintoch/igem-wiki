@@ -22,15 +22,18 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top main-navbar">
+      <!-- Logo -->
       <a class="navbar-brand" href="#">
         <img src="./public/gliksys_logo.png" width="150" alt="" loading="lazy">
       </a>
+      <!-- Botón para vista móvil -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Elementos de navbar -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
           </li>
@@ -97,6 +100,20 @@
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row" style="height:100px; text-align: center;">
+          <div class="col-2">
+            <img src="./public/gliksys_logo_bn.png" alt="" style="width:200px;">
+          </div>
+          <div class="col-10" style="background-color: black; color: white;">
+            <h1>Contenido</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
