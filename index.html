@@ -22,10 +22,9 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top main-navbar">
-      <!-- Logo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="box-shadow: 0 0 20px grey;">
       <a class="navbar-brand" href="#">
-        <img src="./public/gliksys_logo.png" width="150" alt="" loading="lazy">
+        <img src="./images/gliksys_logo.png" width="150" alt="" loading="lazy">
       </a>
       <!-- Botón para vista móvil -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,6 +67,8 @@
       <div class="row">
         <!-- Menú de la derecha -->
         <div class="col-3">
+          <div style="background-color: aqua;">
+          </div>
           <div id="rightMenu" class="sticky-top">
             <ul>
               <li class="listItem">Objectives</li>
@@ -82,31 +83,30 @@
         <!-- Contenido principal -->
         <div class="col">
           <!-- Encabezado -->
-          <div class="row" style="height:40vh; text-align: center;">
-            <div class="col-3">
-
+          <div class="row" style="height:40vh;align-items: flex-end; display: flex; text-align: center;">
+            <div class="col-5">
+              <hr style="margin-left: 50px;">
             </div>
-            <div class="col-6">
-              <h1>Título</h1>
+            <div class="col">
+              <h1>ENCABEZADO</h1>
             </div>
             <div class="col-3">
-              
+              <hr style="margin-right: 50px;">
             </div>
           </div>
           <!-- Título -->
-          <div class="row" style="height:1000px; background-color: black; color: white;">
-            <h1 style="vertical-align: text-bottom;">Contenido</h1>
+          <div class="row justify-content-center" style="height: 1000px; background-color: black; color: white;">
+            <h1 style="margin-top:200px">Contenido</h1>
           </div>
         </div>
       </div>
     </div>
-
     <!-- Footer -->
     <footer>
       <div class="container-fluid">
         <div class="row" style="height:100px; text-align: center;">
           <div class="col-2">
-            <img src="./public/gliksys_logo_bn.png" alt="" style="width:200px;">
+            <img src="./images/gliksys_logo_bn.png" alt="" style="width:200px;">
           </div>
           <div class="col-10" style="background-color: black; color: white;">
             <h1>Contenido</h1>
@@ -114,6 +114,5 @@
         </div>
       </div>
     </footer>
-
   </body>
 </html>

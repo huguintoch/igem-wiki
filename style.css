@@ -41,3 +41,8 @@ footer {
    padding-bottom: 5px;
    padding-top: 5px;
 }
+
+hr { 
+   border-top: 1px solid rgb(143, 143, 143);
+   margin-bottom: 1.5rem;
+}
