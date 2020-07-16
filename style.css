@@ -1,0 +1,27 @@
+#cover {
+   background-color: white; 
+   height: 450px;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 2;
+} 
+#rightMenu {
+   padding-top: 30vh; 
+   width: 50%; 
+   margin-left: 25%;
+   z-index: 1;
+}
+#rightMenu ul {
+   padding: 0;
+   list-style-type: none;
+   font-size: 12px;
+   font-weight: bold;
+}
+
+#rightMenu ul .listItem {
+   border-bottom: 1px solid black;
+   padding-bottom: 5px;
+   padding-top: 5px;
+}
