@@ -21,7 +21,7 @@ footer {
 
 #cover {
    background-color: white; 
-   height: 450px;
+   height: 300px;
    width: 100%;
    position: absolute;
    top: 0;
@@ -30,7 +30,7 @@ footer {
 } 
 
 #leftMenu {
-   padding-top: 30vh; 
+   padding-top: 20vh; 
    width: 50%; 
    margin-left: 25%;
    z-index: 1;
