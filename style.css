@@ -1,4 +1,4 @@
-/* Index */
+/* General */
 
 body {
    min-height: 100vh;
@@ -7,6 +7,8 @@ body {
    padding-bottom: 100px;     /* Height of the footer */
    box-sizing: border-box;
 }
+
+/* Footer */
 
 footer {
    position: absolute;
@@ -25,6 +27,13 @@ footer {
    padding-left: 35px;
    padding-right: 35px;
 }
+
+.social-icon { 
+   max-width: 20px; 
+   height: auto;
+}
+
+/* Navbar */
 
 .main-navbar {
     padding-left: 100px;
