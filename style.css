@@ -14,7 +14,19 @@ footer {
    width:100%;
 }
 
-.main-navbar{
+.footer-image {
+   min-width: 100px; 
+   height: auto;
+   padding: 10px;
+}
+
+.social-container {
+   padding-top: 10px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+.main-navbar {
     padding-left: 100px;
     padding-right: 100px;
 }
