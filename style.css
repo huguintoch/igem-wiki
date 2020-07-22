@@ -40,14 +40,32 @@ footer {
     padding-right: 150px;
 }
 
+.nav-item {
+   margin: 10px;
+}
+
+.nav-link {
+   color: black !important;
+   font-family: cabinregular, Helvetica, sans-serif;
+}
+
+.nav-link:hover {
+   color: gray !important;
+}
+
 /* DROPDOWN */
 
-.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{     /* Makes dropdown open on hover */
+.dropdown-menu {     /* Makes dropdown stick closer to navbar title */
+   margin-top: 0;
+   border-top: 0;
+   font-family: cabinregular, Helvetica, sans-serif;
+   color: black;
+}
+
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {     /* Makes dropdown open on hover */
    display: block;
-   padding-left: 20px;
-   padding-right: 20px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
    border: 0px;
    border-radius: 0px;
    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
@@ -61,6 +79,22 @@ footer {
    background-image:none !important;
    background-color: #6e78ff;
    color: white;
+}
+
+.dropdown-hr {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.dropdown-i {
+   display: block;
+   text-decoration: none;
+   color: #111;
+}
+
+.dropdown-i:hover {
+   display: block;
+   text-decoration: none;
 }
 
 /* LEFT STICKY MENU */
@@ -98,4 +132,38 @@ footer {
 hr { 
    border-top: 1px solid rgb(143, 143, 143);
    margin-bottom: 1.5rem;
+}
+
+/* FONTS */
+
+@font-face {
+   font-family: 'cabinregular';
+   src: url('fonts/cabin-regular-webfont.woff2') format('woff2'),
+        url('fonts/cabin-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'cabinsemibold';
+   src: url('fonts/cabin-semibold-webfont.woff2') format('woff2'),
+        url('fonts/cabin-semibold-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'cabinitalic';
+   src: url('fonts/cabin-italic-webfont.woff2') format('woff2'),
+        url('fonts/cabin-italic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'assistantlight';
+   src: url('fonts/assistant-light-webfont.woff2') format('woff2'),
+        url('fonts/assistant-light-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
 }
