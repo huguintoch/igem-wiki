@@ -8,6 +8,19 @@ body {
    box-sizing: border-box;
 }
 
+p {
+   font-family: cabinregular, Helvetica, sans-serif;
+}
+
+span {
+   font-family: cabinregular, Helvetica, sans-serif;
+}
+
+h2 {
+   font-family: assistantlight; 
+   font-size: 30px;
+}
+
 /* FOOTER */
 
 footer {
@@ -132,6 +145,37 @@ footer {
 hr { 
    border-top: 1px solid rgb(143, 143, 143);
    margin-bottom: 1.5rem;
+}
+
+/* IMAGES */
+
+.image-grid {
+   padding: 15px;
+}
+
+.image-grid-col {
+   padding: 0;
+}
+
+.img-fill {
+   display: block; 
+   width: 100%; 
+   height: 100%;
+   padding: 4px;
+}
+
+.img-fill-half {
+   display: block; 
+   width: 100%; 
+   height: 50%;
+   padding: 4px;
+}
+
+.image-footer {
+   padding-top: 10px;
+   padding-left: 5px;
+   font-family: cabinitalic;
+   font-size: 12px;
 }
 
 /* FONTS */
