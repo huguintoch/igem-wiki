@@ -1,14 +1,7 @@
 /* GENERAL */
 
-body {
-   min-height: 100vh;
-   position: relative;
-   margin: 0;
-   padding-bottom: 100px;     /* Height of the footer */
-   box-sizing: border-box;
-}
-
 p {
+   padding: 4px;
    font-family: cabinregular, Helvetica, sans-serif;
 }
 
@@ -24,33 +17,29 @@ h2 {
 /* FOOTER */
 
 footer {
-   position: absolute;
-   bottom:0;
-   width:100%;
+   margin-bottom: 20px;
+}
+
+.right-footer {
+   padding: 30px; 
+   border-left: 1.75px solid #59C3C3;
 }
 
 .footer-image {
-   min-width: 100px; 
-   height: auto;
-   padding: 10px;
+   object-fit: scale-down;
+   margin: 5px;
 }
 
-.social-container {
-   padding-top: 10px;
-   padding-left: 35px;
-   padding-right: 35px;
-}
-
-.social-icon { 
-   max-width: 20px; 
-   height: auto;
+.social-icon {
+   margin: 7px; 
+   max-width: 20px;
 }
 
 /* NAVBAR */
 
 .main-navbar {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .nav-item {
@@ -155,6 +144,7 @@ hr {
 
 .image-grid-col {
    padding: 0;
+   padding-bottom: 30px;
 }
 
 .img-fill {
