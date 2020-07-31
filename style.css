@@ -1,17 +1,36 @@
 /* GENERAL */
 
-p {
+.header {
+   font-family: assistantlight; 
+   font-size: 45px;
+}
+
+@media only screen and (min-width: 1000px) {
+   #header-hr-r{
+      margin-right: 20%;
+   }
+   #header-hr-l{
+      margin-left: 20%;
+   }
+}
+
+.title {
+   font-family: assistantlight; 
+   font-size: 30px;
+}
+
+.title-hr {
+   margin-left: 10%; 
+   margin-right: 10%;
+}
+
+.paragraph {
    padding: 4px;
    font-family: cabinregular, Helvetica, sans-serif;
 }
 
 span {
-   font-family: cabinregular, Helvetica, sans-serif;
-}
-
-h2 {
-   font-family: assistantlight; 
-   font-size: 30px;
+   font-family: cabinregular, Helvetica, sans-serif; /*[TODO]: Change for style in lists*/
 }
 
 /* FOOTER */
@@ -23,6 +42,10 @@ footer {
 .right-footer {
    padding: 30px; 
    border-left: 1.75px solid #59C3C3;
+}
+
+.left-footer {
+   padding: 30px; 
 }
 
 .footer-image {
@@ -40,6 +63,7 @@ footer {
 .main-navbar {
     padding-left: 10%;
     padding-right: 10%;
+    box-shadow: 0 0 20px grey;
 }
 
 .nav-item {
@@ -97,17 +121,6 @@ footer {
 .dropdown-i:hover {
    display: block;
    text-decoration: none;
-}
-
-/* HEADER */
-
-@media only screen and (min-width: 1000px) {
-   #header-hr-r{
-      margin-right: 20%;
-   }
-   #header-hr-l{
-      margin-left: 20%;
-   }
 }
 
 /* LEFT STICKY MENU */
