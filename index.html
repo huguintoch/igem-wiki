@@ -23,7 +23,7 @@
     <title>iGEM Wiki</title>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#leftMenu">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top main-navbar">
@@ -138,12 +138,22 @@
         <!-- Left menu -->
         <div class="col-3">
           <div id="leftMenu" class="sticky-top">
-            <ul>
-              <li class="listItem">Objectives</li>
-              <li class="listItem">Reach</li>
-              <li class="listItem">Users feedback</li>
-              <li class="listItem">Researchers feedback</li>
-              <li style="padding-top: 5px;">How did it shape our project</li>
+            <ul role="tablist">
+              <li class="menuItem">
+                <a href="#objectives">Objectives</a> 
+              </li>
+              <li class="menuItem">
+                <a href="#reach">Reach</a> 
+              </li>
+              <li class="menuItem">
+                <a href="#userFeedback">Users feedback</a> 
+              </li>
+              <li class="menuItem">
+                <a href="#researcherFeedback">Researchers feedback</a> 
+              </li>
+              <li class="menuItem">
+                <a href="#shape">How did it shape our project</a> 
+              </li>
             </ul>
           </div>
           <!-- <div id="cover"></div> -->
@@ -152,7 +162,7 @@
         <div class="col-8">
           
           <!-- Paste templates here -->
-          
+        
         </div>
       </div>
     </div>

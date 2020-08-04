@@ -1,5 +1,9 @@
 /* GENERAL */
 
+body {
+   position: relative;
+}
+
 .header {
    font-family: assistantlight; 
    font-size: 45px;
@@ -149,10 +153,15 @@ footer {
    font-weight: bold;
 }
 
-#leftMenu ul .listItem {
+#leftMenu ul .menuItem {
    border-bottom: 1px solid black;
    padding-bottom: 5px;
    padding-top: 5px;
+}
+
+.menuItem a {
+   text-decoration: none;
+   color: black;
 }
 
 hr { 
@@ -190,6 +199,28 @@ hr {
    padding-left: 5px;
    font-family: cabinitalic;
    font-size: 12px;
+}
+
+/* LISTS */
+
+.list {
+   padding: 10px;
+}
+
+.listItem {
+   margin: 20px;
+}
+
+.listItem img {
+   width: 100%;
+}
+
+.listNumber {
+   align-self: center;
+}
+
+.listNumber h1 {
+   font-size: 80px;
 }
 
 /* FONTS */
