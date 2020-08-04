@@ -5,8 +5,14 @@ body {
 }
 
 .header {
-   font-family: assistantlight; 
+   font-family: assistantlight, Helvetica, sans-serif;
    font-size: 45px;
+}
+
+@media only screen and (max-width: 1000px) {
+   .header {
+      background-color: #FFFFFF88;
+   }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -18,8 +24,18 @@ body {
    }
 }
 
+.header-row {
+   background-image: url(./images/header.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:50vh;
+   align-items: flex-end; 
+   display: flex; 
+   text-align: center;
+}
+
 .title {
-   font-family: assistantlight; 
+   font-family: assistantlight, Helvetica, sans-serif;
    font-size: 30px;
 }
 
@@ -28,13 +44,18 @@ body {
    margin-right: 10%;
 }
 
+.subtitle {
+   font-family: cabinsemibold, Helvetica, sans-serif;
+   font-size: 25px;
+}
+
 .paragraph {
    padding: 4px;
    font-family: cabinregular, Helvetica, sans-serif;
 }
 
 span {
-   font-family: cabinregular, Helvetica, sans-serif; /*[TODO]: Change for style in lists*/
+   font-family: cabinregular, Helvetica, sans-serif;
 }
 
 /* FOOTER */
@@ -171,6 +192,10 @@ hr {
 
 /* IMAGES */
 
+.image-container {
+   margin-bottom: 40px;
+}
+
 .image-grid {
    padding: 15px;
 }
@@ -221,6 +246,11 @@ hr {
 
 .listNumber h1 {
    font-size: 80px;
+}
+
+.textContainer {
+   padding-bottom: 40px; 
+   align-self: center;
 }
 
 /* FONTS */
